@@ -1,0 +1,17 @@
+<% include header %>
+
+  <article class="feeditem">
+    <h4 class="feedhead" id="topP">Welcome to <%= title %></h4>
+
+    <% if (msg != '') { %>
+      <p id="msg"><%= msg %></p>
+    <% } %>
+
+    <form id="postform" method="post" action="/admin">
+      <input id="post-title" type="text" placeholder="Enter a title!" name="postTitle"/>
+      <textarea id="post-content" name="postBody" placeholder="Enter your text here!"></textarea>
+      <input type="submit" name="submit" id="post-submit" value="Post!" />
+    </form>
+  </article>
+    
+<% include adminfooter %>

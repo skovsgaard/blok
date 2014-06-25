@@ -1,0 +1,136 @@
+/* Font imports */
+@import url(http://fonts.googleapis.com/css?family=Exo+2:700|Ubuntu:300);
+
+@font-face {
+  font-family: 'Fira Sans Light';
+  src: url('/fonts/FiraSans-Light.woff');
+}
+
+@media screen and (max-width: 529px) {
+  #logo span {
+    font-size: 50px;
+  }
+  #logo img {
+    max-height: 34px;
+  }
+}
+
+body {
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+header.fullwidth {
+  height: 239px;
+  overflow-x: hidden;
+  background-image: url('/img/streamer.png');
+  background-width: 1920px;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 550px;
+}
+
+article.content {
+  position: relative;
+  top: 60px;
+  background: #fff;
+  border-style: solid;
+  border-width: 4px 0px 0px;
+  border-image: url('/img/line.png') 4 0 0 round stretch;
+  -moz-border-image: url('/img/line.png') 4 0 0 round stretch;
+  -webkit-border-image: url('/img/line.png') 4 0 0 round stretch;
+  -o-border-image: url('/img/line.png') 4 0 0 round stretch;
+  box-shadow: 0px 1px 1px 0px #ababab;
+  -webkit-box-shadow: 0px 1px 1px 0px #ababab;
+  -moz-box-shadow: 0px 1px 1px 0px #ababab;
+  -o-box-shadow: 0px 1px 1px 0px #ababab;
+}
+
+#logo {
+  padding: 4px 116px 8px 116px;
+  text-decoration: none;
+  color: #000;
+  display: block;
+}
+
+#headlogo {
+  height: 70px;
+  display: inline-block;
+  margin-right: 1.2em;
+}
+
+#logotext {
+  line-height: 100px;
+  font-size: 100px;
+  font-family: 'Exo 2', sans-serif;
+}
+
+article.feeditem {
+  margin-top: 20px;
+  padding: 0 40px 15px;
+  background: #fff;
+  border-style: solid;
+  border-width: 4px 0px 0px;
+  border-image: url('/img/line.png') 4 0 0 round stretch;
+  -moz-border-image: url('/img/line.png') 4 0 0 round stretch;
+  -webkit-border-image: url('/img/line.png') 4 0 0 round stretch;
+  -o-border-image: url('/img/line.png') 4 0 0 round stretch;
+  box-shadow: 0px 1px 1px 0px #ababab;
+  -webkit-box-shadow: 0px 1px 1px 0px #ababab;
+  -moz-box-shadow: 0px 1px 1px 0px #ababab;
+  -o-box-shadow: 0px 1px 1px 0px #ababab;
+
+}
+
+.feedhead {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.feedbody {
+  font-family: 'Fira Sans Light', sans-serif;
+  font-size: 14px;
+}
+
+.login {
+  margin: 20px 0;
+}
+
+#email, #pass, #loginsub, #post-title,
+#post-content, #post-submit,
+.edit-post, .delete-post,
+.editor * {
+  border-style: solid;
+  border-color: #ababab;
+  background: none;
+  color: #000;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  padding: 5px 10px;
+}
+
+#postform, .editor {
+  margin: 20px 0;
+}
+
+#post-title, #post-content {
+  width: 90%;
+  margin-bottom: 5px;
+  max-width: 100%;
+}
+
+.edit-post, .delete-post {
+  float: right;
+  margin: 5px;
+}
+
+.save-button, .cancel-button {
+  margin: 5px 5px 5px 0;
+}

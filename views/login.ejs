@@ -1,0 +1,17 @@
+<% include header %>
+
+   <article class="feeditem">
+      <h4 class="feedhead"><%= title %></h4>
+      
+      <% if (msg != '') { %>
+        <p id="msg"><%= msg %></p>
+      <% } %>
+    
+      <form class="login" method="post" action="/login">
+        <input id="email" type="email" name="email" placeholder="Email" />
+        <input id="pass" type="password" name="pass" placeholder="Password" />
+        <input id="loginsub" type="submit" name="submit" value="Log in" />
+      </form>
+    </article>
+
+<% include footer %>
