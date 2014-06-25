@@ -1,0 +1,34 @@
+{
+  "name": "blok",
+  "version": "0.0.1",
+  "description": "The coffeescript version of blok-io.",
+  "main": "lib/app.js",
+  "scripts": {
+    "test": "cake test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skovsgaard/blok.git"
+  },
+  "dependencies": {
+    "level": "*",
+    "express": "3.4.8",
+    "socket.io": "*",
+    "coffee-script": "*",
+    "ejs": "*"
+  },
+  "keywords": [
+    "blog",
+    "blok",
+    "coffeescript",
+    "leveldb",
+    "realtime",
+    "socket.io"
+  ],
+  "author": "Skovsgaard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skovsgaard/blok/issues"
+  },
+  "homepage": "https://github.com/skovsgaard/blok"
+}
